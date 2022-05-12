@@ -212,3 +212,52 @@ footer h3{
         transition: width 1s;
     }
 }
+
+@media screen and (max-width: 576px){
+    header{
+        flex-direction: column;   
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    div img{
+        height: 400px;
+        width: 450px;
+        margin-left: 60px;
+    }
+
+    .textos{
+        padding-right: 50px;
+        padding-left: 50px;
+        margin: 0px;
+    }
+
+    .textos h3{
+        margin-top: 25px;
+    }
+
+    .textos p{
+        margin: 0px;
+    }
+
+    .descripcion__foto{
+        margin-bottom: 20px;        
+    }
+
+    .grid div a img{
+        margin-left: 50px;
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        transition: width 1s;
+    }
+}
