@@ -25,15 +25,16 @@ a{
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: black;
     min-height: 75px;
-    padding: 10px;
-    align-items: center;    
+    padding: 10px 40px;
 }
 
 .logo{
     display: flex;
     align-items: center;
+    margin-right: 440px;
 }
 
 header a img{
@@ -152,6 +153,11 @@ footer h2{
     display: inline-block;
     width: 50px;
     height: 50px;
+    transition: width 1s;
+}
+
+.grid div a img:hover{
+    width: 55px;
 }
 
 footer h3{
@@ -160,20 +166,49 @@ footer h3{
     border-top: solid 1px grey;
 }
 
-@media (max-width:700px){
+@media screen and (max-width: 768px){
     header{
-        flex-direction: column;
+        flex-direction: column;   
     }
+
     nav{
         padding: 10px 0px;
     }
 
-    footer h2{
-        font-size: 20px;
-        text-align: center;
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-right: 0px;
     }
-    footer div a{
-        font-size: 15px;
-        margin: 5px 5px 5px 5px; 
+
+    div img{
+        margin-left: 125px;
     }
-} 
+
+    .textos{
+        padding-right: 50px;
+        padding-left: 50px;
+        margin: 0px;
+    }
+
+    .textos h3{
+        margin-top: 25px;
+    }
+
+    .textos p{
+        margin: 0px;
+    }
+
+    .descripcion__foto{
+        margin-bottom: 20px;        
+    }
+
+    .grid div a img{
+        margin-left: 85px;
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        transition: width 1s;
+    }
+}
