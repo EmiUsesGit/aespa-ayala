@@ -4,72 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SYNK, AESPA - Miembros</title>
+    <title>SYNK, AESPA | Miembros</title>
+
+    <!-- Vinculación de CSS y JavaScript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/miembros.css">
 
 </head>
 <body>
     <!-- Header: menú de navegacion, logotipo y nombre de la página -->
     <header>
-        <a href="#" class="logo">
-            <img src="../images/aespa-logo.webp" alt="Logotipo de AESPA">
-            <h2 class="nombre-empresa">SYNK, AESPA</h2>
+        <a href="../index.html" class="logo">
+            <img src="../images/aespa-logo.webp" alt="Logo de AESPA">
+            <h2 class="nombre-empresa">synk, aespa</h2>
         </a>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Miembros</a></li>
-                <li><a href="discografia.html">Discografía</a></li>
-                <li><a href="lore.html">Lore</a></li>
-                <li><a href="compania.html">Compañía</a></li> 
-            </ul>
+            <a href="../index.html">Inicio</a>
+            <a href="#" class="miembros">Miembros</a>
+            <a href="pages/discografia.html">Discografía</a>
+            <a href="pages/lore.html">Lore</a>
+            <a href="pages/compania.html">Compañía</a>
         </nav>
     </header>
     <!-- Main: fotos y descripción de los miembros de AESPA -->
     <main>
-    <div class="contenedor">
-        <section>
-            <h2>MIEMBROS</h2>
-            <h3>KARINA</h3>
-            <img src="../images/aespa-karina.jpg" alt="Imagen de Karina">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eum rerum corrupti non dolore, 
-            quae deleniti recusandae sunt adipisci, nisi maxime cum inventore accusantium. Corrupti modi dolore 
-            eum quidem labore!</p>
-            <h3>GISELLE</h3>
-            <img src="../images/aespa-giselle.jpg" alt="Imagen de Giselle">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eum rerum corrupti non dolore, 
-            quae deleniti recusandae sunt adipisci, nisi maxime cum inventore accusantium. Corrupti modi dolore 
-            eum quidem labore!</p>
-            <h3>WINTER</h3>
-            <img src="../images/aespa-winter.jpg" alt="Imagen de Winter">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eum rerum corrupti non dolore, 
-            quae deleniti recusandae sunt adipisci, nisi maxime cum inventore accusantium. Corrupti modi dolore 
-            eum quidem labore!</p>
-            <h3>NINGNING</h3>
-            <img src="../images/aespa-ningning.jpg" alt="Imagen de NingNing">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus eum rerum corrupti non dolore, 
-            quae deleniti recusandae sunt adipisci, nisi maxime cum inventore accusantium. Corrupti modi dolore 
-            eum quidem labore!</p>
-        </section>
-        <aside>SECCIÓN LATERAL</aside>
-    </div>
+
+        <div class="row">
+        <div class="col-12 col-md-6 borde__textos karina">
+            <h2 class="texto__miembros">MIEMBROS &#127756;</h2>
+            <h3 class="texto__karina">KARINA</h3>
+            <p><span>Nombre Artístico:</span> Karina (카리나)</p>
+            <p><span>Nombre Real:</span> Yu Ji Min (유지민)</p>
+            <p><span>Nacimiento:</span> 11 de Abril del 2000</p>
+            <p><span>Nacionalidad:</span> Surcoreana</p>
+            <p><span>Posiciones:</span> Líder, Bailarina Principal, Rapera Secundaria, Sub-Vocalista, Visual, Rostro del Grupo, Centro</p>
+            <p><span>Símbolo:</span> Corazón &#128151;</p>
+            <p><span>Tiempo de Entrenamiento:</span> 4 años</p>
+        </div>
+        <div class="col-12 col-md-6 borde__fotos">
+            <img src="../images/aespa-karina.jpg" alt="Imagen de Karina" class="fotos">
+        </div>
+        <div class="col-12 col-md-6 borde__textos giselle">
+            <h3 class="texto__giselle">GISELLE</h3>
+            <p><span>Nombre Artístico:</span> Giselle (지젤)</p>
+            <p><span>Nombre Real:</span> Uchinaga Aeri (우치나가에리)</p>
+            <p><span>Nacimiento:</span> 30 de Octubre del 2000</p>
+            <p><span>Nacionalidad:</span> Japonesa-Surcoreana</p>
+            <p><span>Posiciones:</span> Rapera Principal, Sub-Vocalista</p>
+            <p><span>Símbolo:</span> Luna Creciente &#127769;</p>
+            <p><span>Tiempo de Entrenamiento:</span> 11 meses</p>
+        </div>
+        <div class="col-12 col-md-6 borde__fotos">
+            <img src="../images/aespa-giselle.jpg" alt="Imagen de Giselle" class="fotos">
+        </div>
+        <div class="col-12 col-md-6 borde__textos winter">
+            <h3 class="texto__winter">WINTER</h3>
+            <p><span>Nombre Artístico:</span> Winter (윈터)</p>
+            <p><span>Nombre Real:</span> Kim Min Jeong (김민정)</p>
+            <p><span>Nacimiento:</span> 01 de Enero del 2001</p>
+            <p><span>Nacionalidad:</span> Surcoreana</p>
+            <p><span>Posiciones:</span> Vocalista Secundaria, Bailarina Secundaria, Visual</p>
+            <p><span>Símbolo:</span> Estrella &#11088;</p>
+            <p><span>Tiempo de Entrenamiento:</span> 4 años</p>
+        </div>
+        <div class="col-12 col-md-6 borde__fotos">
+            <img src="../images/aespa-winter.jpg" alt="Imagen de Winter" class="fotos">
+        </div>
+        <div class="col-12 col-md-6 ningning">
+            <h3 class="texto__ningning">NINGNING</h3>
+            <p><span>Nombre Artístico:</span> NingNing (닝닝)</p>
+            <p><span>Nombre Real:</span> Ning Yizhuo (宁艺卓)</p>
+            <p><span>Nacimiento:</span> 23 de Octubre de 2002</p>
+            <p><span>Nacionalidad:</span> China</p>
+            <p><span>Posiciones:</span> Vocalista Principal, Maknae</p>
+            <p><span>Símbolo:</span> Mariposa &#129419;</p>
+            <p><span>Tiempo de Entrenamiento:</span> 4 años</p>
+        </div>
+        <div class="col-12 col-md-6">
+            <img src="../images/aespa-ningning.jpg" alt="Imagen de NingNing" class="fotos">
+        </div>
+        </div>
     </main>
-    <!-- Footer: derechos, contacto con el creador de la página-->
+
+    <!-- Footer: redes sociales, derechos-->
     <footer>
-        <h2>Sigue a Aespa</h2>
-        <div class="social">
-            <a href="https://es-la.facebook.com/aespa.official" target="_blank">Facebook</a>
-            <a href="https://twitter.com/aespa_official" target="_blank">Twitter</a>
-            <a href="https://www.instagram.com/aespa_official/?hl=es" target="_blank">Instagram</a>
-            <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg" target="_blank">YouTube</a>
-            <a href="https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE" target="_blank">Spotify</a>
-        </div>
-        <h2>Contáctanos</h2>
-        <div>
-            <input type="text" name="Correo" id="Correo" placeholder="Ingresar email" required>
-            <input type="submit" value="Enviar">
-        </div>
+        <h2>&#128156;sigue a aespa&#128156;</h2>
+
+        <div class="grid">
+            <div>
+                <a href="https://www.facebook.com/aespa.official" target="_blank">
+                    <img src="../images/facebook.png" alt="Facebook">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/aespa_official/" target="_blank">
+                    <img src="../images/instagram.png" alt="Instagram">
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/aespa_official?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <img src="../images/twitter.png" alt="Twitter">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg" target="_blank">
+                    <img src="../images/youtube.png" alt="YouTube">
+                </a>
+            </div>
+            <div>
+                <a href="https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE?si=Ffb19cjqRXiwv80mFJBU7Q" target="_blank">
+                    <img src="../images/spotify.png" alt="Spotify">
+                </a>
+            </div>
+          </div>
+
         <h3>SM ENTERTAINMENT - All Rights Deserved</h3>
-    </footer>    
+    </footer> 
+
+    <!-- Vinculación de JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

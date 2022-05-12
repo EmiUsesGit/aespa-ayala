@@ -31,6 +31,14 @@ header{
     padding: 10px 40px;
 }
 
+.inicio{
+    color: #EF8DAE;
+}
+
+.inicio:hover{
+    color: white;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -99,7 +107,6 @@ div h3{
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-weight: bolder;
     font-size: 30px;
 }
 
