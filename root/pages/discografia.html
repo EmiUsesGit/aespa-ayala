@@ -5,71 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SYNK, AESPA - Discografía</title>
+
+    <!-- Vinculación de CSS y JavaScript -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/discografia.css">
 
 </head>
 <body>
     <!-- Header: menú de navegacion, logotipo y nombre de la página -->
     <header>
-        <a href="#" class="logo">
-            <img src="../images/aespa-logo.webp" alt="Logotipo de AESPA">
-            <h2 class="nombre-empresa">SYNK, AESPA</h2>
+        <a href="../index.html" class="logo">
+            <img src="../images/aespa-logo.webp" alt="Logo de AESPA">
+            <h2 class="nombre-empresa">synk, aespa</h2>
         </a>
         <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="miembros.html">Miembros</a></li>
-                <li><a href="#">Discografía</a></li>
-                <li><a href="lore.html">Lore</a></li>
-                <li><a href="compania.html">Compañía</a></li> 
-            </ul>
+            <a href="../index.html">Inicio</a>
+            <a href="miembros.html">Miembros</a>
+            <a href="#" class="discografia">Discografía</a>
+            <a href="lore.html">Lore</a>
+            <a href="compania.html">Compañía</a>
         </nav>
     </header>
     <!-- Main: discografia del grupo -->
     <main>
-    <div class="contenedor">
-        <section>
-            <h2>DISCOGRAFÍA</h2>            
-            <h3>BLACK MAMBA (2020)</h3>
-            <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/ZeerrnuLi5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint adipisci quia omnis perferendis ullam, quis quaerat harum, veniam consequatur incidunt veritatis possimus praesentium at eum provident. Fuga, quos maxime!</p>
-
-            <h3>FOREVER (2021)</h3>
-            <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/wog1R1d4zls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis doloremque beatae molestiae obcaecati, amet eos laudantium totam architecto cumque ipsa! Soluta provident pariatur doloremque deleniti, nihil cupiditate rerum repellendus est.</p>
-  
-            <h3>NEXT LEVEL (2021)</h3>
-            <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/4TWR90KJl84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro in cumque et, quaerat ullam ipsum quibusdam distinctio vitae odio minus temporibus, voluptate explicabo quae! Similique, accusantium? Suscipit aliquid soluta consectetur?</p>
-
-            <h3>SAVAGE (2021)</h3>
-            <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/WPdWvnAAurg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem beatae, ad nisi, necessitatibus expedita, assumenda quia earum quasi quae saepe placeat corrupti minima eum voluptas nihil aliquid eaque id tenetur!</p>
-        
-            <h3>DREAMS COME TRUE (2021)</h3>
-            <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/H69tJmsgd9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex placeat iste animi aliquid est vero totam odit magnam voluptas et accusantium, rerum consectetur expedita dignissimos ea corrupti nesciunt assumenda ullam!</p>
-        
-        </section>
-        <aside>SECCIÓN LATERAL</aside>
+            <div class="row">
+            <div class="col-12 col-md-6 borde__textos blackmamba">
+                <h2 class="texto__discografia">DISCOGRAFÍA &#127756;</h2>
+                <h3 class="texto__blackmamba">BLACK MAMBA (2020) &#128013;</h3>
+                <p>"Black Mamba" es el sencillo debut de aespa. Fue lanzado el 17 de noviembre de 2020 a través
+                    de <a href="./compania.html" target="_blank">SM Entertainment</a>. Musicalmente, 
+                    "Black Mamba" ha sido descrita como una pista de hip hop, dance-pop y electropop, con un sonido
+                    característico de un sintetizador y un bajo que se combina con un coro impactante. La letra de la 
+                    canción describe sobre un ser llamado "Black Mamba" que no solo se interpone con la conexión entre 
+                    las miembros y sus <a href="./lore.html" target="_blank">avatares</a>, sino que también amenaza a 
+                    su mundo.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 borde__videos">
+                <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/ZeerrnuLi5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-6 borde__textos forever">
+                <h3 class="texto__forever">FOREVER (2021) &#9924;</h3>
+                <p>"Forever" es el segundo sencillo digital de aespa. Fue lanzado el 5 de febrero de 2021. La 
+                canción es una versión del mismo nombre del compositor <a href="https://drama.fandom.com/es/wiki/Yoo_Young_Jin_(1971)" target="_blank">Yoo Young-jin</a> lanzada en 2000 como parte 
+                del disco navideño Winter Vacation in SMTOWN. Es una balada de tiempo medio con un sonido de 
+                guitarra acústica y letras cálidas sobre prometer la eternidad a un ser querido. Muestra un lado diferente 
+                de Aespa. Se dice que <a href="https://drama.fandom.com/es/wiki/Yoo_Young_Jin_(1971)" target="_blank">Yoo Young-jin</a> compuso nuevamente la canción para el grupo.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 borde__videos">
+                <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/wog1R1d4zls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-6 borde__textos nextlevel">
+                <h3 class="texto__nextlevel">NEXT LEVEL (2021) &#128171;</h3>
+                <p>"Next Level" es el tercer sencillo digital del grupo. Fue lanzado el 17 de mayo de 2021. 
+                    se describe como una canción de hip hop y dance que se destaca con un rap maravilloso y 
+                    un riff de baja energía, con la poderosa voz y variedad de Aespa. La letra contiene una 
+                    historia sobre el viaje del grupo a su universo ficticio, <a href="./lore.html" target="_blank">Kwangya</a>, mientras trataba de 
+                    encontrar con el ser malvado llamado "Black Mamba".  La canción es un remake de la canción del 
+                    mismo nombre interpretada por A$ton Wyld, usada en la banda sonora de <a href="https://es.wikipedia.org/wiki/Fast_%26_Furious_Presents:_Hobbs_%26_Shaw" target="_blank">Hobbs & Shaw</a>.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 borde__videos">
+                <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/4TWR90KJl84" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-6 borde__textos savage">
+                <h3 class="texto__savage">SAVAGE (2021) &#128293;</h3>
+                <p>"Savage" es el sencillo principal del primer EP de aespa con el mismo nombre. Fue publicado el 5 de octubre
+                    de 2021. Este continúa con la historia de "Next Level" donde se enfrentan a "Black Mamba" y logran asesinar
+                    a este ser malvado. La canción tuvo un gran éxito, tal que logró conseguir un <a href="https://www.frikiwonderland.com/2021/10/15/que-es-un-all-kill-en-k-pop/" target="_blank">"All-Kill"</a> en las listas de 
+                    streaming de Corea del Sur. En YouTube está a punto de conseguir las 200.000.000 de visitas en
+                    menos de un año de lanzamiento. La canción fue un gran paso para el grupo, consiguiendo hasta asistir al festival
+                    de música <a href="https://es.wikipedia.org/wiki/Festival_de_Música_y_Artes_de_Coachella_Valley" target="_blank">Coachella</a>.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 borde__videos">
+                <iframe class=canciones width="560" height="315" src="https://www.youtube.com/embed/WPdWvnAAurg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-6 borde__textos savagealbum">
+                <h3 class="texto__savagealbum">SAVAGE - THE 1ST MINI ALBUM (2021) &#128142;</h3>
+                <p>"Savage - The 1st Mini Album" es el primer EP de aespa. Lanzado el 5 de octubre de 2021 junto a sencillo
+                principal llamado de la misma forma. El EP contiene 6 canciones: aenergy, Savage, I'll  Make You Cry, YEPPI
+                YEPPI, ICONIC y Lucid Dream. Cada canción del EP es una experiencia diferente para la persona que lo escuche ya
+                que cada una tiene un ritmo totalmente diferente a la otra. Fue catalogado por varios críticos como
+                el mejor álbum de K-Pop lanzado en 2021.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 borde__videos">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3vyyDkvYWC36DwgZCYd3Wu?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+            <div class="col-12 col-md-6 dct">
+                <h3 class="texto__dct">DREAMS COME TRUE (2021) &#128126;</h3>
+             <p>"Dreams Come True" es un sencillo remake originalmente del grupo <a href="https://es.wikipedia.org/wiki/S.E.S." target="_blank">S.E.S.</a> lanzado en 1998.
+                El remake de aespa fue lanzado el 20 de diciembre de 2021, como parte de Remastering Project de SM Entertainment, un proyecto
+                donde los grupos más nuevos de la agencia hacen remakes de los grupos más antiguos. <a href="./miembros.html" target="_blank">Giselle</a> comentó que "el grupo trató de agregar
+                sus colores y concepto a la canción original". El remake fue lanzado junto a un vídeo musical en YouTube el mismo día de lanzamiento.
+            </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/H69tJmsgd9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            </div>
     </main>
     </div>
-    <!-- Footer: derechos, contacto con el creador de la página-->
+    <!-- Footer: redes sociales, derechos-->
     <footer>
-        <h2>Sigue a Aespa</h2>
-        <div class="social">
-            <a href="https://es-la.facebook.com/aespa.official" target="_blank">Facebook</a>
-            <a href="https://twitter.com/aespa_official" target="_blank">Twitter</a>
-            <a href="https://www.instagram.com/aespa_official/?hl=es" target="_blank">Instagram</a>
-            <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg" target="_blank">YouTube</a>
-            <a href="https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE" target="_blank">Spotify</a>
-        </div>
-        <h2>Contáctanos</h2>
-        <div>
-            <input type="text" name="Correo" id="Correo" placeholder="Ingresar email" required>
-            <input type="submit" value="Enviar"> 
-        </div>
+        <h2>&#128156;sigue a aespa&#128156;</h2>
+
+        <div class="grid">
+            <div>
+                <a href="https://www.facebook.com/aespa.official" target="_blank">
+                    <img src="../images/facebook.png" alt="Facebook">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/aespa_official/" target="_blank">
+                    <img src="../images/instagram.png" alt="Instagram">
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/aespa_official?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                    <img src="../images/twitter.png" alt="Twitter">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/channel/UC9GtSLeksfK4yuJ_g1lgQbg" target="_blank">
+                    <img src="../images/youtube.png" alt="YouTube">
+                </a>
+            </div>
+            <div>
+                <a href="https://open.spotify.com/artist/6YVMFz59CuY7ngCxTxjpxE?si=Ffb19cjqRXiwv80mFJBU7Q" target="_blank">
+                    <img src="../images/spotify.png" alt="Spotify">
+                </a>
+            </div>
+          </div>
+
         <h3>SM ENTERTAINMENT - All Rights Deserved</h3>
-    </footer>    
+    </footer> 
+
+    <!-- Vinculación de JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
