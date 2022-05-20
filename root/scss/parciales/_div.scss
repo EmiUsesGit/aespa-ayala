@@ -1,0 +1,81 @@
+div{
+    .row{
+        background-color: rgb(100, 100, 100);
+        margin: 35px;
+    }
+    
+    div img{
+        border: solid 5px black;
+        height: 400px;
+        width: 500px;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    
+    div p{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #EA89AE;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        border-bottom: solid 3px rgb(0, 0, 0);
+        border-left: solid 3px rgb(0, 0, 0);
+        border-right: solid 3px rgb(0, 0, 0);
+    }
+    
+    div p a{
+        text-decoration: underline;
+        color: #ffffff;
+    }
+    
+    .textos{
+        font-weight: bold;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        padding-left: 50px;
+    }
+    
+    div h3{
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .lema{
+        border-bottom: solid 1px black;
+    }
+    
+    div h4{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-align: center;
+        font-size: 13px;
+    }
+    
+    div h4 a{
+        color:#ffffff;
+        font-weight: bold;
+        text-align: center;
+        font-size: 13px;
+        text-decoration: underline;
+    }
+    
+    div h5{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #EA89AE;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 7px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border: solid 3px black;
+    }
+}
