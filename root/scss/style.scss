@@ -1,13 +1,9 @@
-@import "parciales/_header.scss";
+/* Este es mi archivo principal de SASS */
+
+/* Importando los parciales de mis estilos */
+@import "parciales/_variables.scss";
 @import "parciales/_body.scss";
+@import "parciales/_header.scss";
 @import "parciales/_div.scss";
 @import "parciales/_footer.scss";
 @import "parciales/_responsive.scss";
-
-$color-1: #EA89AE;
-
-header {
-    li a.active, li a:hover {
-        color: $color-1;
-    }
-}

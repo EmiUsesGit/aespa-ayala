@@ -1,55 +1,107 @@
-header{
-    nav{
-        background-color: black;
-        height: 80px;
-        width: 100%;
-    }
-    
-    .enlace{
-        position: absolute;
-        padding: 10px 50px;
-    }
-    
-    .logo{
-        height: 70px;
-        width: 160px;
-    }
-    
-    nav ul{
-        float: right;
-        margin-right: 20px;
-    }
-    
-    nav ul li{
+nav{
+    background-color: $color-quinario;
+    height: 80px;
+    width: 100%;
+
+    & ul{
+      float: right;
+      margin-right: 20px;
+
+      & li{
         display: inline-block;
         line-height: 80px;
         margin: 0 5px;
+
+        & a{
+          color: $color-cuaternario;
+          font-size: 18px;
+          text-decoration: none;
+          padding: 7px 13px;
+          border-radius: 3px;
+          text-transform: uppercase;
+
+          &.active, &:hover{
+            color: $color-terciario;
+            transition: .5s;
+          }
+        }
+      }
     }
-    
-    nav ul li a{
-        color: white;
-        font-size: 18px;
-        text-decoration: none;
-        padding: 7px 13px;
-        border-radius: 3px;
-        text-transform: uppercase;
-    }
-    
-    li a.active, li a:hover{
-        color: #EA89AE;
-        transition: .5s;
-    }
-    
-    .checkbtn{
-        font-size: 30px;
-        float: right;
-        line-height: 80px;
-        margin-right: 40px;
-        cursor: pointer;
-        display: none;
-    }
-    
+  }
+  
+  .enlace{
+    position: absolute;
+    padding: 10px 50px;
+  }
+  
+  .logo{
+    height: 70px;
+    width: 160px;
+  }
+  
+  .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
     #check{
-        display: none;
+      display: none;
     }
-}
+  }
+  
+  header nav {
+    background-color: $color-quinario;
+    height: 80px;
+    width: 100%;
+
+    & .enlace {
+      position: absolute;
+      padding: 10px 50px;
+    }
+    
+    & .logo {
+      height: 70px;
+      width: 160px;
+    }
+    
+    & nav ul {
+      float: right;
+      margin-right: 20px;
+
+      & li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+
+        & a {
+          color: $color-cuaternario;
+          font-size: 18px;
+          text-decoration: none;
+          padding: 7px 13px;
+          border-radius: 3px;
+          text-transform: uppercase;
+
+          &.active, &:hover {
+            color: $color-terciario;
+            transition: .5s;
+          }
+        }
+      }
+    }
+    & .checkbtn {
+      font-size: 30px;
+      float: right;
+      line-height: 80px;
+      margin-right: 40px;
+      cursor: pointer;
+      display: none;
+    }
+    
+    & #check {
+      display: none;
+    }
+  }
+  
