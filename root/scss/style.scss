@@ -3,3 +3,11 @@
 @import "parciales/_div.scss";
 @import "parciales/_footer.scss";
 @import "parciales/_responsive.scss";
+
+$color-1: #EA89AE;
+
+header {
+    li a.active, li a:hover {
+        color: $color-1;
+    }
+}
