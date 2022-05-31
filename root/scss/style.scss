@@ -1,6 +1,7 @@
 /* Este es mi archivo principal de SASS */
 
 /* Importando los parciales de mis estilos */
+@import "parciales/_sass-2.scss";
 @import "parciales/_variables.scss";
 @import "parciales/_body.scss";
 @import "parciales/_header.scss";

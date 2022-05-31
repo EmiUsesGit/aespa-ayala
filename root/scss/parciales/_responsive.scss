@@ -1,5 +1,6 @@
 @media screen and (max-width: 858px){
     .checkbtn{
+        color: white;
         display: block;
     }
     nav ul{
@@ -34,8 +35,8 @@
   
     div img{
         height: 350px;
-        width: 350px;
-        margin-left: 10px;
+        width: 300px;
+        margin: 25px;
     }
   
     .textos{
@@ -57,16 +58,18 @@
         }
       
         & h5{
+            padding: 0;
+            font-size: 20px;
             border-radius: 0;
         }
       
         & p{
             border-radius: 0;
-            font-size: 20px;
+            font-size: 15px;
             margin: 0px;
 
             & a{
-                font-size: 20px;
+                font-size: 15px;
             }
         }
     }
@@ -74,14 +77,13 @@
     .descripcion__foto{
         margin-bottom: 20px;        
     }
-  
+    
     .grid div a img{
         margin-left: 100px;
         margin-bottom: 50px;
         display: inline-block;
         width: 50px;
         height: 50px;
-        transition: width 1s;
     }
   }
 
@@ -107,6 +109,10 @@
         & h3{
             margin-top: 25px;
         }
+
+        & h5{
+            font-size: 20px;
+        }
       
         & p{
             margin: 0px;
@@ -118,7 +124,7 @@
     }
   
     .grid div a img{
-        margin-right: 0px;
+        margin-left: 110px;
         margin-bottom: 50px;
         display: inline-block;
         width: 50px;

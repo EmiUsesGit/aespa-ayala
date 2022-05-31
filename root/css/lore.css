@@ -215,6 +215,30 @@ footer h3{
     nav ul li a{
         font-size: 16px;
     }
+
+    .videos iframe {
+        width: 830px;
+        margin-left: 5px;
+    }
+
+    .row img {
+        width: 350px;
+        height: 500px;
+    }
+
+    .kwangya img {
+        margin-left: 25px;
+        width: 800px;
+        height: 300px;
+    }
+
+    .grid div a img{
+        margin-left: 110px;
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
 }
 
 @media screen and (max-width: 858px){
@@ -247,7 +271,49 @@ footer h3{
         color: #EA89AE;
     }
 
+    .videos {
+        display: inline-block;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+
+    .videos iframe {
+        width: 600px;
+        margin-left: 5px;
+    }
+
+    .row h2 {
+        font-size: 20px;
+    }
+
+    .row p {
+        font-size: 15px;
+    }
+
+    .row img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .kwangya img {
+        margin-left: 100px;
+        width: 600px;
+        height: 300px;
+    }
+
+    .kwangya h3 {
+        font-size: 10px;
+    }
+
     #check:checked ~ul{
         left: 0;
+    }
+
+    .grid div a img{
+        margin-left: 100px;
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
     }
 }
