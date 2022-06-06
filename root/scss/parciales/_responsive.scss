@@ -1,25 +1,19 @@
-@media screen and (max-width: 858px){
-    .checkbtn{
-        color: white;
-        display: block;
-    }
+@media screen and (max-width: 320px){
     nav ul{
-        position: fixed;
+        float: none;
         width: 100%;
         height: 100vh;
-        background: $color-secundario;
-        top: 80px;
-        left: 100%;
         text-align: center;
-        transition: all .5s;
+        padding: 0;
 
         & li{
-            display: block;
-            margin: 50px 0px;
+            display: inline;
             line-height: 30px;
 
             & a{
-                font-size: 20px;
+                font-size: 11px;
+                margin: 0;
+                padding: 0;
 
                 &:hover, &.active{
                     background-color: none;
@@ -29,14 +23,22 @@
         }
     }
 
-    #check:checked ~ul{
-        left: 0;
-    }
+    .enlace{
+        position: relative;
+        margin: 45px;
+      }
+      
+      .logo{
+        height: 50px;
+        width: 120px;
+      }
   
     div img{
-        height: 350px;
-        width: 300px;
-        margin: 25px;
+        border: solid black 3px;
+        height: 200px;
+        width: 220px;
+        margin: 5px;
+        margin-top: 15px;
     }
   
     .textos{
@@ -75,59 +77,31 @@
     }
 
     .descripcion__foto{
+        font-size: 10px;
         margin-bottom: 20px;        
     }
-    
+
+    .descripcion__foto a{
+        font-size: 10px;
+    }
+
+    footer h2 {
+        font-size: 20px;
+    }
+
+    footer h3 {
+        font-size: 10px;
+    }
+
+    .grid {
+        display: block;
+    }
+
     .grid div a img{
-        margin-left: 100px;
-        margin-bottom: 50px;
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-    }
-  }
-
-  @media screen and (max-width: 925px){
-    .enlace{
-        padding-left: 20px;
-    }
-  
-    nav ul li a{
-        font-size: 16px;
-    }
-  
-    div img{
-        margin-left: 0;
-        width: 380px;
-    }
-  
-    .textos{
-        padding-right: 50px;
-        padding-left: 50px;
-        margin: 0px;
-
-        & h3{
-            margin-top: 25px;
-        }
-
-        & h5{
-            font-size: 20px;
-        }
-      
-        & p{
-            margin: 0px;
-        }
-    }
-
-    .descripcion__foto{
-        margin-bottom: 20px;        
-    }
-  
-    .grid div a img{
-        margin-left: 110px;
-        margin-bottom: 50px;
-        display: inline-block;
-        width: 50px;
-        height: 50px;
+        margin-left: 130px;
+        margin-bottom: 20px;
+        display: block;
+        width: 40px;
+        height: 40px;
     }
   }

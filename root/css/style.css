@@ -37,13 +37,11 @@ nav ul li a {
   font-size: 18px;
   text-decoration: none;
   padding: 7px 13px;
-  border-radius: 3px;
   text-transform: uppercase;
 }
 
 nav ul li a.active, nav ul li a:hover {
   color: #EA89AE;
-  transition: .5s;
 }
 
 .enlace {
@@ -54,73 +52,6 @@ nav ul li a.active, nav ul li a:hover {
 .logo {
   height: 70px;
   width: 160px;
-}
-
-.checkbtn {
-  font-size: 30px;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
-
-header nav {
-  background-color: #000000;
-  height: 80px;
-  width: 100%;
-}
-
-header nav .enlace {
-  position: absolute;
-  padding: 10px 50px;
-}
-
-header nav .logo {
-  height: 70px;
-  width: 160px;
-}
-
-header nav nav ul {
-  float: right;
-  margin-right: 20px;
-}
-
-header nav nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-header nav nav ul li a {
-  color: #ffffff;
-  font-size: 18px;
-  text-decoration: none;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-
-header nav nav ul li a.active, header nav nav ul li a:hover {
-  color: #EA89AE;
-  transition: .5s;
-}
-
-header nav .checkbtn {
-  font-size: 30px;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-header nav #check {
-  display: none;
 }
 
 .row {
@@ -240,40 +171,41 @@ footer h3 {
   width: 55px;
 }
 
-@media screen and (max-width: 858px) {
-  .checkbtn {
-    color: white;
-    display: block;
-  }
+@media screen and (max-width: 320px) {
   nav ul {
-    position: fixed;
+    float: none;
     width: 100%;
     height: 100vh;
-    background: #646464;
-    top: 80px;
-    left: 100%;
     text-align: center;
-    transition: all .5s;
+    padding: 0;
   }
   nav ul li {
-    display: block;
-    margin: 50px 0px;
+    display: inline;
     line-height: 30px;
   }
   nav ul li a {
-    font-size: 20px;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
   }
   nav ul li a:hover, nav ul li a.active {
     background-color: none;
     color: #EA89AE;
   }
-  #check:checked ~ ul {
-    left: 0;
+  .enlace {
+    position: relative;
+    margin: 45px;
+  }
+  .logo {
+    height: 50px;
+    width: 120px;
   }
   div img {
-    height: 350px;
-    width: 300px;
-    margin: 25px;
+    border: solid black 3px;
+    height: 200px;
+    width: 220px;
+    margin: 5px;
+    margin-top: 15px;
   }
   .textos {
     padding-right: 50px;
@@ -304,51 +236,27 @@ footer h3 {
     font-size: 15px;
   }
   .descripcion__foto {
+    font-size: 10px;
     margin-bottom: 20px;
   }
-  .grid div a img {
-    margin-left: 100px;
-    margin-bottom: 50px;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
+  .descripcion__foto a {
+    font-size: 10px;
   }
-}
-
-@media screen and (max-width: 925px) {
-  .enlace {
-    padding-left: 20px;
-  }
-  nav ul li a {
-    font-size: 16px;
-  }
-  div img {
-    margin-left: 0;
-    width: 380px;
-  }
-  .textos {
-    padding-right: 50px;
-    padding-left: 50px;
-    margin: 0px;
-  }
-  .textos h3 {
-    margin-top: 25px;
-  }
-  .textos h5 {
+  footer h2 {
     font-size: 20px;
   }
-  .textos p {
-    margin: 0px;
+  footer h3 {
+    font-size: 10px;
   }
-  .descripcion__foto {
-    margin-bottom: 20px;
+  .grid {
+    display: block;
   }
   .grid div a img {
-    margin-left: 110px;
-    margin-bottom: 50px;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    display: block;
+    width: 40px;
+    height: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
