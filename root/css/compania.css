@@ -367,3 +367,242 @@ footer h3{
         height: 40px;
     }
 }
+
+@media screen and (max-width: 426px){
+    nav ul{
+        margin-bottom: 0;
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li{
+         display: inline;
+    }
+
+    nav ul li a{
+        font-size: 13px;
+        margin-left: 20px;
+        padding: 0;
+    }
+
+    a:hover, a.active{
+        background-color: none;
+        color: #EA89AE;
+    }
+
+    .enlace{
+        position: relative;
+        margin: 45px;
+    }
+      
+    .logo{
+        margin-left: 90px;
+        height: 60px;
+        width: 120px;
+    }
+
+    .contenedor img {
+        margin-left: 110px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .row iframe {
+        height: 200px;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .row img {
+        height: 200px;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .grid div a img{
+        margin-left: 110px;
+        margin-bottom: 50px;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+    }
+
+    .historia img {
+        height: 200px;
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .grid div a img{
+        margin-top: 20px;
+        margin-left: 180px;
+        margin-bottom: 20px;
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    nav ul{
+        margin-top: 0;
+        margin-bottom: 0;
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav li{
+        display: inline;
+    }
+
+    nav ul li a{
+        font-size: 10px;
+        margin-left: 10px;
+        padding: 0;
+    }
+
+    a:hover, a.active{
+        background-color: none;
+        color: #EA89AE;
+    }
+                
+    .enlace{
+        position: relative;
+        margin: 45px;
+    }
+      
+    .logo{
+        margin-left: 35px;
+        height: 60px;
+        width: 120px;
+    }
+
+    .contenedor img {
+        margin-left: 80px;
+        width: 160px;
+        height: 140px;
+    }
+
+    .contenedor h2 {
+        font-size: 8px;
+    }
+
+    .historia h2 {
+        font-size: 10px;
+    }
+
+    .historia p {
+        font-size: 10px;
+    }
+
+    .historia h3 {
+        font-size: 8px;
+    }
+
+    .contenedor2 h2 {
+        font-size: 10px;
+    }
+
+    .contenedor2 h3 {
+        font-size: 10px;
+    }
+
+    .contenedor2 p {
+        font-size: 10px;
+    }
+
+    .contenedor3 h2 {
+        font-size: 10px;
+    }
+
+    .contenedor img {
+        margin-left: 100px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .row iframe {
+        height: 100px;
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .row h3 {
+        font-size: 8px;
+    }
+
+    .row img {
+        height: 100px;
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .grid div a img{
+        margin-bottom: 50px;
+        display: inline-block;
+        height: 100px;
+        width: 200px;
+        margin-right: 20px;
+    }
+
+    .historia img {
+        height: 100px;
+        width: 200px;
+        margin-left: 0;
+    }
+
+    .grid div a img{
+        margin-top: 20px;
+        margin-left: 180px;
+        margin-bottom: 20px;
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
+    input#Nombre {
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-left: 100px;
+        display: block;
+    }
+
+    input#Correo {
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-left: 100px;
+        display: block;
+    }
+
+    input#Mensaje {
+        font-size: 10px;
+        margin-bottom: 5px;
+        margin-left: 100px;
+        display: block;
+    }
+
+    input.enviar {
+        font-size: 10px;
+        margin-right: 150px;
+    }
+
+    footer h2 {
+        font-size: 15px;
+    }
+
+    footer h3 {
+        font-size: 10px;
+    }
+
+    .grid div a img{
+        margin-left: 135px;
+        margin-bottom: 20px;
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}
