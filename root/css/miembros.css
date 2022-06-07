@@ -324,17 +324,19 @@ footer h3{
         width: 120px;
     }
 
-    .grid div a img{
-        margin-left: 100px;
-        margin-bottom: 50px;
-        display: inline-block;
-        width: 20px;
-        height: 20px;
+    div {
+        border: 0;
+    }
+
+    .row div img {
+        border: solid black 3px;
+        height: 300px;
+        width: 400px;
+        margin-left: 60px;
+        margin-top: 15px;
     }
 
     h2 {
-        font-size: 20px;
-        margin-top: 0;
         margin-right: 40px;
         margin-bottom: 5px;
     }
@@ -346,6 +348,64 @@ footer h3{
 
     p {
         margin-right: 40px;
-        font-size: 15px;
+    }
+
+    .borde__fotos {
+        border: 0;
+    }
+
+    .borde__textos {
+        border: 0;
+    }
+
+    .texto__miembros {
+        font-size: 20px;
+    }
+
+    .texto__karina {
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .texto__giselle {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .texto__winter {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .texto__ningning {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+
+    footer h3 {
+        font-size: 10px;
+        margin-left: 50px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .grid div a img{
+        margin-top: 0;
+        margin-left: 270px;
+        margin-bottom: 20px;
+        display: block;
+        width: 40px;
+        height: 40px;
     }
 }
