@@ -12,58 +12,41 @@ body{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(239,141,174,1) 50%, rgba(70,110,252,1) 100%);
 }
 
-nav{
+header {
     background-color: black;
-    height: 80px;
     width: 100%;
 }
-
-.enlace{
-    position: absolute;
-    padding: 10px 50px;
+  
+.logo {
+    margin-left: 25px;
+    width: 190px;
+    height: 80px;
 }
-
-.logo{
-    height: 70px;
-    width: 160px;
-}
-
-nav ul{
+  
+ul { 
     float: right;
-    margin-right: 20px;
+    margin-right: 50px;
+    margin-top: 25px;
 }
-
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
+  
+ul li {
+    display: inline;
 }
-
-nav ul li a{
+  
+ul li a {
+    margin-left: 20px;
+    font-size: 20px;
     color: white;
-    font-size: 18px;
     text-decoration: none;
-    padding: 7px 13px;
-    border-radius: 3px;
     text-transform: uppercase;
 }
-
-li a.active, li a:hover{
+  
+ul li a:hover {
     color: #EA89AE;
-    transition: .5s;
 }
-
-.checkbtn{
-    font-size: 30px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check{
-    display: none;
+    
+.active {
+    color: #EA89AE;
 }
 
 .row{
@@ -306,67 +289,63 @@ footer h3{
     border-top: solid 1px grey;
 }
 
-@media screen and (max-width: 925px){
-    .enlace{
-        padding-left: 20px;
-    }
-
-    nav ul li a{
-        font-size: 16px;
-    }
-
-    div img {
-        width: 350px;
-    }
-
-    .grid div a img{
-        margin-left: 110px;
-        margin-bottom: 50px;
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-    }
-}
-
-@media screen and (max-width: 858px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
+@media screen and (max-width: 600px){
+    nav ul{
+        margin-bottom: 0;
+        float: none;
         width: 100%;
-        height: 100vh;
-        background: grey;
-        top: 80px;
-        left: 100%;
         text-align: center;
-        transition: all .5s;
+        padding: 0;
     }
 
-    nav ul li{
-        display: block;
-        margin: 50px 0px;
-        line-height: 30px;
+    nav li{
+        display: inline;
+    }
+    
+    nav li a{
+        font-size: 15px;
+        margin-left: 20px;
+        padding: 0;
     }
 
-    nav ul li a{
-        font-size: 20px;
-    }
-
-    li a:hover, li a.active{
+    a:hover, a.active{
         background-color: none;
         color: #EA89AE;
     }
 
-    #check:checked ~ul{
-        left: 0;
+    .enlace{
+        position: relative;
+        margin: 45px;
+    }
+      
+    .logo{
+        margin-left: 190px;
+        height: 60px;
+        width: 120px;
     }
 
     .grid div a img{
         margin-left: 100px;
         margin-bottom: 50px;
         display: inline-block;
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 0;
+        margin-right: 40px;
+        margin-bottom: 5px;
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-right: 40px;
+    }
+
+    p {
+        margin-right: 40px;
+        font-size: 15px;
     }
 }
